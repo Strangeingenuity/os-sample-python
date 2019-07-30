@@ -5,7 +5,7 @@ import requests
 @application.route("/")
 def hello():
     response = requests.get('https://httpbin.org/ip')
-    return response
+    return "Hello World!"
     
 
 if __name__ == "__main__":
